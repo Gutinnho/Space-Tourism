@@ -1,0 +1,24 @@
+@import 'styles/typographyMixins';
+@import 'styles/_variables.scss';
+
+.home {
+  div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    h5 {
+      @include heading5;
+      color: $greyLigth;
+    }
+    h1 {
+      @include heading1;
+      color: $white;
+    }
+    p {
+      @include text;
+      color: $greyLigth;
+    }
+  }
+}
